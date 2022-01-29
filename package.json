@@ -1,25 +1,26 @@
 {
-  "name": "template",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "koishi start -- -r esbuild-register",
-    "mirai:run": "cd go-mirai && go-cqhttp"
-  },
-  "devDependencies": {
-    "esbuild": "^0.14.14",
-    "esbuild-register": "^3.3.2",
-    "typescript": "^4.5.5"
-  },
-  "dependencies": {
-    "@koishijs/cli": "^4.1.1",
-    "@koishijs/plugin-adapter-onebot": "^4.0.0",
-    "@koishijs/plugin-console": "^2.0.0",
-    "@koishijs/plugin-dataview": "^1.1.0",
-    "@koishijs/plugin-insight": "^1.1.0",
-    "@koishijs/plugin-logger": "^1.1.0",
-    "@koishijs/plugin-manager": "^1.2.0",
-    "@koishijs/plugin-status": "^5.2.0",
-    "koishi": "^4.1.1"
-  }
+    "name": "template",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "koishi start -- -r esbuild-register",
+        "mirai:run": "cd go-mirai && go-cqhttp"
+    },
+    "devDependencies": {
+        "esbuild": "^0.14.14",
+        "esbuild-register": "^3.3.2",
+        "prettier": "2.5.1",
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "@koishijs/cli": "^4.1.1",
+        "@koishijs/plugin-adapter-onebot": "^4.0.0",
+        "@koishijs/plugin-console": "^2.0.0",
+        "@koishijs/plugin-dataview": "^1.1.0",
+        "@koishijs/plugin-insight": "^1.1.0",
+        "@koishijs/plugin-logger": "^1.1.0",
+        "@koishijs/plugin-manager": "^1.2.0",
+        "@koishijs/plugin-status": "^5.2.0",
+        "koishi": "^4.1.1"
+    }
 }
