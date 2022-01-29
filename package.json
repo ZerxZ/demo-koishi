@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "koishi start -- -r esbuild-register",
-        "mrun": "cd go-mirai && go-cqhttp"
+        "mrun": "cd go-mirai && ./go-cqhttp"
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.5",

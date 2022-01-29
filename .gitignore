@@ -7,6 +7,8 @@ node_modules
 go-mirai/data
 go-mirai/logs
 go-mirai/session.token
+go-mirai/config.yml
 go-mirai/device.json
 qrcode.png
 logs
+
