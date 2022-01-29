@@ -4,23 +4,29 @@
     "private": true,
     "scripts": {
         "start": "koishi start -- -r esbuild-register",
-        "mirai:run": "cd go-mirai && go-cqhttp"
+        "mrun": "cd go-mirai && go-cqhttp"
     },
     "devDependencies": {
+        "@types/js-yaml": "^4.0.5",
         "esbuild": "^0.14.14",
         "esbuild-register": "^3.3.2",
+        "js-yaml": "^4.1.0",
         "prettier": "2.5.1",
         "typescript": "^4.5.5"
     },
     "dependencies": {
         "@koishijs/cli": "^4.1.1",
         "@koishijs/plugin-adapter-onebot": "^4.0.0",
+        "@koishijs/plugin-admin": "^1.0.0",
         "@koishijs/plugin-console": "^2.0.0",
+        "@koishijs/plugin-database-mongo": "^3.0.2",
         "@koishijs/plugin-dataview": "^1.1.0",
         "@koishijs/plugin-insight": "^1.1.0",
         "@koishijs/plugin-logger": "^1.1.0",
         "@koishijs/plugin-manager": "^1.2.0",
         "@koishijs/plugin-status": "^5.2.0",
+        "@koishijs/plugin-teach": "^3.1.0",
+        "dotenv": "^14.3.2",
         "koishi": "^4.1.1"
     }
 }
