@@ -1,6 +1,12 @@
+*.log
+
 node_modules
-go-mirai
 
+.DS_Store
 
+go-mirai/data
+go-mirai/logs
+go-mirai/session.token
+go-mirai/device.json
 
-go-mirai/!go-cqhttp.exe
+logs
