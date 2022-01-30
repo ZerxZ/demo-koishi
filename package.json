@@ -26,6 +26,7 @@
         "@koishijs/plugin-manager": "^1.2.0",
         "@koishijs/plugin-status": "^5.2.0",
         "@koishijs/plugin-teach": "^3.1.0",
+        "@zerxz/koishi-plugin-gocqhttp": "^1.0.8",
         "dotenv": "^14.3.2",
         "koishi": "^4.1.1"
     }

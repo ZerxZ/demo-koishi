@@ -1,0 +1,15 @@
+port: 8080
+allowWrite: true
+plugins:
+  ./src/ping: 
+  adapter-onebot:
+    bots:
+      - protocol: ws
+        selfId: '2375581742'
+        endpoint: ws://127.0.0.1:6700
+  '@zerxz/koishi-plugin-gocqhttp':
+  console: 
+  insight: 
+  logger: 
+  status: 
+  manager: 
